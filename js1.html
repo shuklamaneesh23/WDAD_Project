@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="Login">
+        Username:<input type="text" name="uname"/>
+        <br><br>
+        Password:<input type="password" name="password"/>
+        <br>
+        <br>
+        <input type="button" value="submit" onclick="validate()"/>
+
+    </form>
+    <script>
+        function validate(){
+            var user=document.Login.uname.value;
+            var pass=document.Login.password.value;
+            if(user == null || user==""){
+                alert("Username can't be empty.");
+                return false;
+            }else if(pass.length<8){
+                alert("Required length must be 8.");
+                return false;
+            }else{
+                return true;
+            }
+
+        }
+    </script>
+</body>
+</html>

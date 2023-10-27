@@ -1,0 +1,53 @@
+.dropdown{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+  .dropdown{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+  .navbar-brand{
+    padding-left:30px;
+    padding-right:30px;
+    text-decoration: solid;
+    font-size: 33px;
+    color: ;
+  }
+  .navbar-brand{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .d-flex{
+    margin-left:290px;
+  }
+
+  .imag{
+    height: 63px;
+    border-radius: 50px;
+    margin-left: 2px;
+  }
+
+  .image{
+    margin-top: -10px;
+    height: 350px;
+  }
+
+  .dibba{
+    height: 500px;
+    width: 900px;
+    margin-top: 160px;
+    margin-left: 250px;
+  }
+  .cont{
+    margin-top: -250px;
+    margin-left: 640px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .h1{
+    font-size: 60px;
+  }
+  .ita{
+    font-style: italic;
+  }
